@@ -1,23 +1,7 @@
 // import content
 import { useEffect } from "react";
 //import { content } from "../Content";
-const hero = {
-    title: "Web Developer",
-    firstName: "JOHN",
-    LastName: "ALEX",
-    btnText: "Hire Me",
-    image: Hero_person,
-    hero_content: [
-      {
-        count: "8+",
-        text: "Years of Experinse in Web development",
-      },
-      {
-        count: "20+",
-        text: "Projects Worked in my career",
-      },
-    ],
-  },
+
 
 
 const Hero = () => {
@@ -45,7 +29,7 @@ const Hero = () => {
             <button className="btn">Explore</button>
           </div>
           <div className="flex flex-col gap-10 mt-10">
-            {hero.hero_content.map((content, i) => (
+            
               <div
                 key={i}
                 data-aos="fade-down"
@@ -53,10 +37,10 @@ const Hero = () => {
                 className={`flex items-center w-80 gap-5
             ${i === 1 && " flex-row-reverse text-right"}  `}
               >
-                <h3>{content.count}</h3>
-                <p>{content.text}</p>
+                <h3>8</h3>
+                <p>The best team in The World</p>
               </div>
-            ))}
+            
           </div>
         </div>
 
