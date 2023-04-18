@@ -45,7 +45,7 @@ const Hero = () => {
         </div>
 
         {/* sec col */}
-        <div className="md:h-[37rem] h-96">
+        <div className="md:h-[37remG] h-96">
           <img
             src="https://e0.365dm.com/23/04/768x432/skysports-trent-aa-liverpool_6124897.jpg?20230418103055"
             data-aos="slide-up"
