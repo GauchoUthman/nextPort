@@ -4,6 +4,16 @@ import Navbar from "./Layouts/Navbar";
 //import Skills from "./components/Skills";
 //import Service from "./components/Services";
 //
+
+import { BrowserRouter } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
+// routes
+import Router from './routes';
+// theme
+import ThemeProvider from './theme';
+// components
+//import { StyledChart } from './components/chart';
+//import ScrollToTop from './components/scroll-to-top';
 import { useEffect } from "react";
 // Animation package
 import Aos from "aos";
@@ -19,7 +29,10 @@ const App = () => {
   }, []);
   return (
     <div className="">
+      <HelmetProvider>
       
+        <ThemeProvider>
+          
       <Hero />
     {/*  <Skills />
       <Service />
@@ -27,7 +40,9 @@ const App = () => {
       <Testimonials />
       <Hireme />
       <Contact />*/}
-      
+      </ThemeProvider>
+     
+    </HelmetProvider>
     </div>
   );
 };
