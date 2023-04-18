@@ -31,7 +31,7 @@ const Hero = () => {
           <div className="flex flex-col gap-10 mt-10">
             
               <div
-                key={i}
+                
                 data-aos="fade-down"
                 data-aos-delay={i * 300}
                 className={`flex items-center w-80 gap-5
