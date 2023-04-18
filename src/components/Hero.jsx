@@ -34,8 +34,8 @@ const Hero = () => {
                 
                 data-aos="fade-down"
                 data-aos-delay={i * 300}
-                className={`flex items-center w-80 gap-5
-            ${i === 1 && " flex-row-reverse text-right"}  `}
+                className="flex items-center w-80 gap-5
+             flex-row-reverse text-right"
               >
                 <h3>8</h3>
                 <p>The best team in The World</p>
