@@ -38,7 +38,7 @@ const Hero = () => {
               "
               >
                 <h3>8</h3>
-                <p>Trent Alexander-Arnold excelling in new midfield hybrid role; notched two assists during 6-1 win over Leeds; assisted Roberto Firmino for late equaliser against Arsenal last week; registered second-most touches this season at Elland Road; Jamie Carragher analyses new role</p>
+                <p>Trent Alexander-Arnold excelling in new midfield hybrid role; notched two assists during 6-1 win over Leeds; assisted Roberto Firmino for late equaliser against Arsenal last week; registered second-most touches this season at Elland Road; Jamie Carragher analyses new roleTrent Alexander-Arnold excelling in new midfield hybrid role; notched two assists during 6-1 win over Leeds; assisted Roberto Firmino for late equaliser against Arsenal last week; registered second-most touches this season at Elland Road; Jamie Carragher analyses new role</p>
               </div>
             
           </div>
