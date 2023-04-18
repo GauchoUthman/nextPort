@@ -47,7 +47,7 @@ const Hero = () => {
         {/* sec col */}
         <div className="md:h-[37rem] h-96">
           <img
-            src="https://codeaprogram-portfolio.web.app/assets/person.7931d41d.png"
+            src="https://e0.365dm.com/23/04/768x432/skysports-trent-aa-liverpool_6124897.jpg?20230418103055"
             data-aos="slide-up"
             alt="..."
             className="h-full object-cover"
