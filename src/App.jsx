@@ -1,6 +1,6 @@
 // import components
 import Hero from "./components/Hero";
-//import Navbar from "./Layouts/Navbar";
+import Navbar from "./Layouts/Navbar";
 //import Skills from "./components/Skills";
 //import Service from "./components/Services";
 //
@@ -19,7 +19,7 @@ const App = () => {
   }, []);
   return (
     <div className="">
-      
+      <Navbar />
       <Hero />
     {/*  <Skills />
       <Service />
