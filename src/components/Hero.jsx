@@ -3,7 +3,23 @@ import { useEffect } from "react";
 //import { content } from "../Content";
 const Hero = () => {
   //const { hero } = content;
-
+const hero = {
+    title: "Web Developer",
+    firstName: "JOHN",
+    LastName: "ALEX",
+    btnText: "Hire Me",
+    image: Hero_person,
+    hero_content: [
+      {
+        count: "8+",
+        text: "Years of Experinse in Web development",
+      },
+      {
+        count: "20+",
+        text: "Projects Worked in my career",
+      },
+    ],
+  },
   return (
     <section id="home" className="overflow-hidden">
       <div className="min-h-screen relative flex md:flex-row flex-col-reverse md:items-end justify-center items-center">
@@ -25,7 +41,7 @@ const Hero = () => {
           <div className="flex justify-end">
             <button className="btn">Explore</button>
           </div>
-        {/*  <div className="flex flex-col gap-10 mt-10">
+          <div className="flex flex-col gap-10 mt-10">
             {hero.hero_content.map((content, i) => (
               <div
                 key={i}
@@ -38,7 +54,7 @@ const Hero = () => {
                 <p>{content.text}</p>
               </div>
             ))}
-          </div>*/}
+          </div>
         </div>
 
         {/* sec col */}
