@@ -1,10 +1,10 @@
 import { useState } from "react";
-import { content } from "../Content";
+//import { content } from "../Content";
 import { HiMenuAlt2 } from "react-icons/hi";
 import { createElement } from "react";
 
 const Navbar = () => {
-  const { nav } = content;
+ // const { nav } = content;
   const [showMenu, setShowMenu] = useState(false);
   const [active, setActive] = useState(0);
 
@@ -21,7 +21,7 @@ const Navbar = () => {
           showMenu ? "bottom-10" : "bottom-[-100%]"
         }`}
       >
-        {nav.map((item, i) => (
+       {/* {nav.map((item, i) => (
           <a
             href={item.link}
             onClick={() => setActive(i)}
@@ -30,7 +30,7 @@ const Navbar = () => {
           >
             {createElement(item.icon)}
           </a>
-        ))}
+        ))}*/}
       </nav>
     </div>
   );
