@@ -7,7 +7,7 @@ import { ThemeProvider as MUIThemeProvider, createTheme, StyledEngineProvider } 
 import palette from './palette';
 import shadows from './shadows';
 import typography from './typography';
-import GlobalStyles from './globalStyles';
+//import GlobalStyles from './globalStyles';
 import customShadows from './customShadows';
 import componentsOverride from './overrides';
 
@@ -36,7 +36,7 @@ export default function ThemeProvider({ children }) {
     <StyledEngineProvider injectFirst>
       <MUIThemeProvider theme={theme}>
         <CssBaseline />
-        <GlobalStyles />
+      {/*  <GlobalStyles />/*}
         {children}
       </MUIThemeProvider>
     </StyledEngineProvider>
