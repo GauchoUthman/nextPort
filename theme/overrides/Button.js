@@ -1,5 +1,3 @@
-import { alpha } from '@mui/material/styles';
-
 // ----------------------------------------------------------------------
 
 export default function Button(theme) {
@@ -28,7 +26,7 @@ export default function Button(theme) {
           boxShadow: theme.customShadows.secondary,
         },
         outlinedInherit: {
-          border: `1px solid ${alpha(theme.palette.grey[500], 0.32)}`,
+          border: `1px solid ${theme.palette.grey[500_32]}`,
           '&:hover': {
             backgroundColor: theme.palette.action.hover,
           },
