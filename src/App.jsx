@@ -5,10 +5,10 @@ import Navbar from "./Layouts/Navbar";
 //import Service from "./components/Services";
 //
 
-import { BrowserRouter } from 'react-router-dom';
-import { HelmetProvider } from 'react-helmet-async';
+//import { BrowserRouter } from 'react-router-dom';
+//import { HelmetProvider } from 'react-helmet-async';
 // routes
-import Router from './routes';
+//import Router from './routes';
 // theme
 import ThemeProvider from './theme';
 // components
@@ -28,10 +28,11 @@ const App = () => {
     });
   }, []);
   return (
+<ThemeProvider>
     <div className="">
-      <HelmetProvider>
       
-        <ThemeProvider>
+      
+        
           
       <Hero />
     {/*  <Skills />
@@ -40,10 +41,11 @@ const App = () => {
       <Testimonials />
       <Hireme />
       <Contact />*/}
-      </ThemeProvider>
+      
      
-    </HelmetProvider>
+    
     </div>
+</ThemeProvider>
   );
 };
 
