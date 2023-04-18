@@ -47,7 +47,7 @@ const Hero = () => {
         {/* sec col */}
         <div className="md:h-[37rem] h-96">
           <img
-            src="https://e0.365dm.com/23/04/768x432/skysports-jurgen-klopp-liverpool_6124573.jpg?20230417225837"
+            src="https://codeaprogram-portfolio.web.app/assets/person.7931d41d.png"
             data-aos="slide-up"
             alt="..."
             className="h-full object-cover"
