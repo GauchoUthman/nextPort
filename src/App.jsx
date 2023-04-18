@@ -29,7 +29,7 @@ const App = () => {
   }, []);
   return (
 <ThemeProvider>
-    <div className="">
+    
       
       
         
@@ -43,8 +43,8 @@ const App = () => {
       <Contact />*/}
       
      
-    
-    </div>
+   
+   
 </ThemeProvider>
   );
 };
